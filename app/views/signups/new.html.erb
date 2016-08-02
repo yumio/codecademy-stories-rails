@@ -1,0 +1,15 @@
+<h1>
+  Sign Ups
+</h1>
+
+<%= form_for(@signup) do |signup| %>
+	<div class="field">
+   First Name <%= signup.text_area :firstname  %> <br>email
+    <%= signup.text_area :email %>
+  </div>
+  <div class="actions">
+    <%= signup.submit "Signup" %>
+</div>
+  <% end %> 
+  
+</div>
